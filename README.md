@@ -5,6 +5,12 @@ This is a [Next.js](https://nextjs.org)14.2.15 project bootstrapped with [`creat
 First, run the development server:
 
 ```bash
+docker compose up
+# or
+docker compose up -d
+```
+
+```bash
 npm run dev
 # or
 yarn dev
