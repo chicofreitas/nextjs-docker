@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org)14.2.15 project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org)14.2.15 project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and [Docker](https://www.docker.com).
 
 ## Getting Started
 

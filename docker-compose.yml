@@ -1,0 +1,14 @@
+services:
+  sincom-frontend:
+    image: node:22-slim
+    container_name: "nextjs14.2.15"
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+    command: bash -c "npm install && npm run dev"
