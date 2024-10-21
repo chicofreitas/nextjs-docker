@@ -1,5 +1,5 @@
 services:
-  sincom-frontend:
+  nextjs-docker:
     image: node:22-slim
     container_name: "nextjs14.2.15"
     working_dir: /app
